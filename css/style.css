@@ -155,8 +155,8 @@ figure figcaption {
 	height: auto;
 }
 #colorlib-aside .author-img {
-	width: 150px;
-	height: 150px;
+	width: 250px;
+	height: 250px;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	-webkit-border-radius: 50%;
@@ -167,6 +167,8 @@ figure figcaption {
 }
 
 #colorlib-aside .author-img img{
+	border-radius: 100%;
+	border: 3px solid white;
 	height: 100%; 
     object-fit: contain;
 	padding: 30px;
