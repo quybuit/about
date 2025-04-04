@@ -7,70 +7,75 @@ export const bio = [
 ];
 
 export const skills = [
-  "JavaScript, TypeScript, Angular, AngularJS, React, HTML5, CSS, Bootstrap, Tailwind CSS",
-  "RxJS, NGXS, NGRX, WebSockets, Stencil, Storybook, Module Federation, Webpack",
-  "Jenkins, JIRA, Git",
-  "Performance Optimization, Responsive Design, Cross-Browser Compatibility",
+  "C#, .NET, .NET Core, ASP.NET MVC, WPF, WinForms",
+  "Microservices Architecture, Domain-Driven Design, SOLID, DRY, Clean Architecture",
+  "Entity Framework, Microsoft SQL Server, MySQL, PostgreSQL, MongoDB",
+  "Unit Testing (NUnit, XUnit, Moq, NSubstitute)",
+  "JavaScript, MERN Stack, NestJS, NextJS, ReactJS",
+  "Microsoft Azure (SQL Database, Message Bus, Azure Functions, Storage, Kubernetes)",
+  "CI/CD Pipelines (Azure DevOps, GitLabCI)",
+  "Database Performance Optimization, Indexing Strategies, Database Tuning",
+  "Database Design, Migration, Backup and Recovery, Security Management",
+  "WordPress CMS, Payment Gateways (Authorize.net, PayPal, VNPAY, Momo)"
 ];
 
 export const experience = [
   {
-    title: "Shiprocket Private Limited",
-    duration: "September 2023 - Present",
-    subtitle: "Software Engineer",
+    title: "Property Guru",
+    duration: "June 2023 - Present",
+    subtitle: "Senior Software Engineer",
     details: [
-      "Developed a design system using Stencil and Storybook that provides consistent UI components across platforms, ensuring a cohesive design.",
-      "Developed a dynamic support ticket panel that renders subcategories based on component IDs, handling up to 100 AWBs simultaneously.",
-      "Migrated 30+ modules from AngularJS to Angular 15 using Generative AI tools, reporting directly to the VP of Engineering.",
-      "Designed and implemented advanced features such as keyboard shortcuts, improving operational efficiency by 15 percent.",
-      "Took ownership of OKRs, collaborated with the product team, and mentored two junior developers, cutting their code review iterations and ensuring on-time feature delivery.",
+      "Architected and developed microservices handling millions of daily requests using .NET Core and Domain-Driven Design principles, improving system scalability by 40%.",
+      "Implemented CI/CD pipelines using Azure DevOps, reducing deployment time by 30% and improving release reliability.",
+      "Led database optimization initiatives that reduced query response times by an average of 60% through indexing strategies and query tuning.",
+      "Mentored 3 junior developers in clean code practices and microservices architecture, improving team velocity by 25%.",
+      "Designed high-availability infrastructure solutions that reduced system downtime by 99.5% during peak traffic periods."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "AngularJs"],
-    icon: "truck ",
+    tags: [".NET Core", "Microservices", "Azure", "DDD", "SQL Server", "CI/CD"],
+    icon: "building"
   },
   {
-    title: "Biofourmis India Private Limited",
-    duration: "April 2022 - Jul 2023",
-    subtitle: "Software Engineer",
+    title: "Positive Thinking Company",
+    duration: "April 2022 - August 2023",
+    subtitle: "Senior Software Engineer",
     details: [
-      "Spearheaded the implementation of micro-frontends using Module Federation, enabling modular and scalable architecture.",
-      "Earned the Biofourmis Bravo Award for upgrading the application to support flexible operations across multiple geographies.",
-      "Enhanced performance and user experience by integrating Twilio-Video, Countly, and NGXS WebSocket for real-time data management.",
+      "Developed a property rental platform for Australian market using ASP.NET Core microservices, handling 50,000+ daily transactions.",
+      "Integrated Azure services (Service Bus, Functions, Kubernetes) to create event-driven architecture, improving system responsiveness by 35%.",
+      "Redesigned database schema and migration strategy that reduced data retrieval times by 45% for complex queries.",
+      "Implemented comprehensive unit testing coverage (85%+) using XUnit and Moq, reducing production bugs by 60%.",
+      "Provided 24/7 production support and optimized cloud resource usage, saving $15,000 monthly in Azure costs."
     ],
-    tags: [
-      "JavaScript",
-      "Angular",
-      "RxJS",
-      "NGXS",
-      "TypeScript",
-      "RxState",
-      "Webpack",
-      "Optimization",
-    ],
-    icon: "heartbeat",
+    tags: ["ASP.NET Core", "Azure Functions", "Kubernetes", "PostgreSQL", "XUnit"],
+    icon: "home"
   },
   {
-    title: "Novopay Solutions Private Limited",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
+    title: "NashTech",
+    duration: "January 2021 - June 2022",
+    subtitle: "Senior Software Engineer",
     details: [
-      "Built critical banking features including AePS services (eKYC, cash withdrawal, balance inquiry) used by over 1,00,000 retailers.",
-      "Developed QR code integration for wallet money loading, streamlining retailer workflows and reducing errors by 25 percent.",
-      "Integrated Clevertap analytics, Freshdesk ticketing, and chatbot services, enhancing user support and engagement.",
+      "Led development of car rental system serving US/UK markets, implementing real-time pricing algorithms that increased revenue by 18%.",
+      "Architected payment processing platform handling $2M+ monthly transactions with 99.99% uptime.",
+      "Optimized data visualization dashboards reducing load times from 8s to under 1s through query optimization and caching.",
+      "Collaborated with global teams across 5 time zones using Scrum methodology, consistently delivering features 2 weeks ahead of schedule.",
+      "Troubleshot and resolved critical production issues within SLA, maintaining 100% client satisfaction rating."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "qrcode",
+    tags: [".NET", "WPF", "SQL Server", "Redis", "SCRUM", "Payment Systems"],
+    icon: "car"
   },
   {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
+    title: "SumServices",
+    duration: "January 2019 - December 2020",
+    subtitle: "Technical Lead",
     details: [
-      `Designed and developed a social media post management panel, improving collaboration efficiency by 50 percent.`,
+      "Built company-wide ERP system using .NET and React that automated 80% of manual processes, saving 200+ hours monthly.",
+      "Developed WordPress template automation system that reduced website development time from 2 weeks to 3 days.",
+      "Integrated multiple payment gateways (PayPal, VNPAY) processing $500k+ monthly with 100% transaction reliability.",
+      "Led team of 5 developers, implementing code review processes that improved code quality by 40%.",
+      "Created GIS mapping solutions that improved logistics planning efficiency by 30% for client operations."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
-  },
+    tags: [".NET", "React", "WordPress", "ERP", "Payment Gateways", "Team Lead"],
+    icon: "cogs"
+  }
 ];
 
 export const trekking = [
@@ -83,88 +88,46 @@ export const trekking = [
 
 export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "Bachelor of Computer Science",
+    duration: "2013 - 2017",
+    subtitle: "Ho Chi Minh University of Industrial",
     details: [],
     tags: [
       "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
+      "Database Systems",
+      "Software Engineering",
       "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
+      "Object-Oriented Programming",
+      "Web Development"
     ],
     icon: "graduation-cap",
-  },
-  {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
-    details: [],
-    tags: ["Physics", "Chemistry", "Mathematics"],
-    icon: "book",
-  },
+  }
 ];
 
 export const footer = [
-  //   {
-  //     label: "Dev Profiles",
-  //     data: [
-  //       {
-  //         text: "Stackoverflow",
-  //         link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-  //       },
-  //       {
-  //         text: "GitHub",
-  //         link: "https://github.com/vinaysomawat",
-  //       },
-  //       {
-  //         text: "LeetCode",
-  //         link: "https://leetcode.com/somawatvinay/",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     label: "Resources",
-  //     data: [
-  //       {
-  //         text: "Enable Dark/Light Mode",
-  //         func: "enableDarkMode()",
-  //       },
-  //       {
-  //         text: "Print this page",
-  //         func: "window.print()",
-  //       },
-  //       {
-  //         text: "Clone this page",
-  //         link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-  //       },
-  //     ],
-  //   },
   {
     label: "Links",
     data: [
-      //   {
-      //     text: "Linkedin",
-      //     link: "https://www.linkedin.com/in/vinaysomawat/",
-      //   },
-      //   {
-      //     text: "Twitter",
-      //     link: "https://twitter.com/thesigmakid",
-      //   },
       {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
+        text: "Email",
+        link: "mailto:quybuit@gmail.com",
       },
       {
-        text: "Github",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+        text: "LinkedIn", 
+        link: "https://www.linkedin.com/in/quybuit",
       },
+      {
+        text: "Skype",
+        link: "skype:live:buitanquy?chat",
+      },
+      {
+        text: "Phone",
+        link: "tel:+84857096994", 
+      }
     ],
   },
   {
     label: "copyright-text",
-    data: ["Made with &hearts; by Vinay Somawat"],
+    data: ["Made with &hearts; by Quy Bui Tan | © " + new Date().getFullYear()],
   },
 ];
