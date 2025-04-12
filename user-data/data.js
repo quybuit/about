@@ -21,8 +21,22 @@ export const skills = [
 
 export const experience = [
   {
+    title: "CoverGo",
+    duration: "May 2024 - Present",
+    subtitle: "Full Stack Software Engineer",
+    details: [
+      "Developed and maintained enterprise-grade SAAS platform features using Vue.js, .NET Core, and GraphQL, serving major insurance clients",
+      "Implemented Domain-Driven Design principles in microservices architecture, resulting in a more maintainable and scalable codebase handling high-volume insurance transactions.",
+      "Optimized application performance through MongoDB query optimization and caching strategies, reducing response times by 50% for high-traffic scenarios.",
+      "Led test-driven development initiatives, achieving 90% test coverage through unit and integration tests using Jest and xUnit.",
+      "Containerized applications using Docker and orchestrated deployments on Azure cloud, ensuring high availability and scalability.",
+    ],
+    tags: ["Vue.js", ".NET Core", "GraphQL", "MongoDB", "Docker", "Azure", "TDD", "DDD"],
+    icon: "building"
+  },
+  {
     title: "Property Guru",
-    duration: "June 2023 - Present",
+    duration: "June 2023 - April 2024",
     subtitle: "Senior Software Engineer",
     details: [
       "Architected and developed microservices handling millions of daily requests using .NET Core and Domain-Driven Design principles, improving system scalability by 40%.",
@@ -113,7 +127,7 @@ export const footer = [
         link: "mailto:quybuit@gmail.com",
       },
       {
-        text: "LinkedIn", 
+        text: "LinkedIn",
         link: "https://www.linkedin.com/in/quybuit",
       },
       {
@@ -122,7 +136,7 @@ export const footer = [
       },
       {
         text: "Phone",
-        link: "tel:+84857096994", 
+        link: "tel:+84857096994",
       }
     ],
   },
