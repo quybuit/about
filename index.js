@@ -128,6 +128,13 @@ function populateLinks(items, id) {
         if (data.func) {
           a.setAttribute("onclick", data.func);
         }
+        if (data.icon) {
+          let icon = document.createElement("i");
+          icon.className = `fa fa-${data.icon} footer-icon`;
+          icon.style.marginRight = "8px"; // Add margin to the right of the icon
+          
+          li.append(icon);
+        }
         a.innerHTML = data.text;
 
         li.append(a);

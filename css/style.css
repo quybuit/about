@@ -2057,6 +2057,10 @@ span {
 	list-style: none;
 	padding-left: 0px;
   }
+
+  footer ul li .about-desc {
+	margin-right: 5px;
+  }
   
   .col {
 	flex: 1;

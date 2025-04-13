@@ -125,18 +125,17 @@ export const footer = [
       {
         text: "Email",
         link: "mailto:quybuit@gmail.com",
+        icon: "envelope-o",
       },
       {
         text: "LinkedIn",
         link: "https://www.linkedin.com/in/quybuit",
-      },
-      {
-        text: "Skype",
-        link: "skype:live:buitanquy?chat",
+        icon: "linkedin",
       },
       {
         text: "Phone",
         link: "tel:+84857096994",
+        icon: "phone",
       }
     ],
   },
